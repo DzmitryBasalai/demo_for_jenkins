@@ -26,6 +26,8 @@ class MyControllerTest {
     void test1() throws Exception {
         MockMvc mockMvc = MockMvcBuilders.webAppContextSetup(context).build();
 
+
+
         mockMvc.perform(get("/api")
                 .accept(APPLICATION_JSON))
                 .andExpect(status().isOk())
