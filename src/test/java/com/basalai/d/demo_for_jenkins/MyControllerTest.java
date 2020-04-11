@@ -23,7 +23,7 @@ class MyControllerTest {
     private WebApplicationContext context;
 
     @Test
-    void test1() throws Exception {
+    void test1 () throws Exception {
         MockMvc mockMvc = MockMvcBuilders.webAppContextSetup(context)
                 .build();
 
