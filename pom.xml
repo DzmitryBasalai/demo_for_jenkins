@@ -9,8 +9,8 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.basalai.d</groupId>
-	<artifactId>demo_for_jenkins</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<artifactId>demo</artifactId>
+	<version>0</version>
 	<name>demo_for_jenkins</name>
 	<description>Demo project for jenkins</description>
 
