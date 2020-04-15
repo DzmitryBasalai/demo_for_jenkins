@@ -1,9 +1,10 @@
-FROM ubuntu
+FROM openjdk:8-jdk-alpine
 
-RUN apt-get update -y \
-	&& apt get install default-jre -y
+ARG JAR_FILE=target/demo-0.jar
 
-ADD ./target/demo-0.jar my_demo.jar
+WORKDIR /opt/app
+
+COPY ${JAR_FILE} my_demo.jar
 
 EXPOSE 8080
 
